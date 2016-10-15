@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/src/main/webapp</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>true</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/sitio</webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/proyecto-base-spring/target/classes</webClassPathEntry>
+        <webClassPathEntry>/proyecto-base-spring/target/test-classes</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>
