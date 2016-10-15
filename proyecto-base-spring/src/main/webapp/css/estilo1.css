@@ -1,0 +1,24 @@
+body{
+	background-image:url("img/fondoPatron.png");
+	
+}
+
+.table{
+    font-size: 16px;
+}
+
+.table td , .table th{
+   text-align: center;   
+}
+
+td img {
+    width: 14%;
+    margin-left: 1%;
+    
+}
+
+.btn{
+    float:right;
+    margin-bottom: 1%;
+    border: 1px solid lightgrey;
+}

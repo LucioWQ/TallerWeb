@@ -1,0 +1,80 @@
+body{
+	background-image:url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
+	
+}
+
+h1{
+	margin-bottom: 2%;
+}
+
+#search{
+	float:left !important;
+}
+
+#nuevo{
+	float: right;
+}
+
+#cont{
+	clear:both;
+}
+
+#lupa{
+	display:block;
+	float:left;
+	width: 2%;
+	position: relative;
+	top 50%;
+	transform: translateY(20%);
+	margin-right: 1%;
+}
+/* ------------------------ Desde aca ordena columnas ------------------------------------- */
+
+table tr th {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+    text-align:center;
+   
+}
+
+.sorting {
+  background-color: #D4D4D4;
+}
+
+.asc:after {
+  content: ' \2191';
+}
+
+.desc:after {
+  content: " \2193";
+}
+
+/* ------------------------ Hasta aca ordena columnas ------------------------------------- */
+
+
+/* ------------------------ Desde aca buscador ------------------------------------- */
+
+.counter{
+	float: left !important;
+	
+	margin-left: 1%;
+}
+
+.counter{
+  padding:8px; 
+  color: black;
+}
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+
